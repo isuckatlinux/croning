@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "croning"
+version = "0.0.1"
+dependencies = ["croniter==2.0.5"]
+requires-python = ">=3.8"
+authors = [{ name = "Pedro García", email = "pedroluisgarciamontil@gmail.com" }]
+maintainers = [
+    { name = "Pedro García", email = "pedroluisgarciamontil@gmail.com" },
+]
+description = "Cron-style scheduling library."
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["cron", "crontab", "python", "scheduler"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+]
+
+[project.urls]
+Repository = "https://github.com/me/spam.git"
