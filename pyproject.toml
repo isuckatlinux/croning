@@ -21,4 +21,4 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/me/spam.git"
+Repository = "https://github.com/isuckatlinux/croning"
