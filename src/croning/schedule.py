@@ -2,7 +2,9 @@ from typing import Callable, Any
 from .scheduler import Scheduler
 
 
-def schedule_function(cron_format: str, identificator: str | None = None):
+def schedule_function(
+    cron_format: str | Callable[[], str], identificator: str | None = None
+):
 
     def register(function: Callable[[], Any]):
 
